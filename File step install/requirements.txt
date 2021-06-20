@@ -1,6 +1,7 @@
-tensorflow
+opencv-python
 keras
 imutils
 numpy
 matplotlib
 scipy
+tensorflow
