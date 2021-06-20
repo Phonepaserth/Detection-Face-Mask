@@ -1,0 +1,33 @@
+Install: Python  --> set Path  	// Add path
+- C:\Users\PPS\AppData\Local\Programs\Python\Python39\
+
+
+Install: pip -->set Path
+-C:\Users\PPS\AppData\Local\Programs\Python\Python39\Scripts
+
+Install: pip install opencv-python
+
+# Current stable release for CPU and GPU
+pip install tensorflow
+
+# Install Keras
+pip install keras
+
+# Install imutils
+pip install imutils
+
+# Install numpy
+pip install numpy
+
+# Install matplotlib
+pip install matplotlib
+
+# Install argparse
+pip install argparse
+
+#Install scipy
+pip install scipy
+
+
+OR
+pip install -r requirements.txt
