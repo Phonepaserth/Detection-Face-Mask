@@ -90,7 +90,7 @@ while True:
 	frame = vs.read()
 	#frame = imutils.resize(frame, width=400) 
 	#flip video
-	frame = imutils.resize(cv2.flip(frame,1), width=400) 
+	frame = imutils.resize(cv2.flip(frame,1), width=600) 
 
 	# detect faces in the frame and determine if they are wearing a
 	# face mask or not
