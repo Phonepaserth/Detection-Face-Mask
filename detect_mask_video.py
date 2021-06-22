@@ -8,6 +8,7 @@ import imutils
 import time
 import cv2
 import os
+import winsound
 
 def detect_and_predict_mask(frame, faceNet, maskNet):
 	# grab the dimensions of the frame and then construct a blob
@@ -107,6 +108,12 @@ while True:
 		# the bounding box and text
 		label = "Mask" if mask > withoutMask else "No Mask"
 		color = (0, 255, 0) if label == "Mask" else (0, 0, 255)
+		# audio warning
+		if label == "No Mask" :
+			duration = 100  # milliseconds
+			print(label)
+			freq = 805  # Hz
+			winsound.Beep(freq, duration)
 
 		# include the probability in the label
 		label = "{}: {:.2f}%".format(label, max(mask, withoutMask) * 100)
