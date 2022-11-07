@@ -31,3 +31,6 @@ pip install scipy
 
 OR
 pip install -r requirements.txt
+
+
+(Remarks: Should update: python.exe -m pip install --upgrade pip)

@@ -1,8 +1,8 @@
 opencv-python
+tensorflow
 keras
 imutils
 numpy
 matplotlib
 scipy
-tensorflow
 wav-win-sound
