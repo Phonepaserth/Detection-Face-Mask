@@ -5,4 +5,5 @@ imutils
 numpy
 matplotlib
 scipy
+scikit-learn
 wav-win-sound

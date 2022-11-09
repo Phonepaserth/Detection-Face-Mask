@@ -28,6 +28,11 @@ pip install argparse
 #Install scipy
 pip install scipy
 
+#Install scikit-learn
+pip install scikit-learn
+
+#Install autopep8
+pip install -U autopep8
 
 OR
 pip install -r requirements.txt
